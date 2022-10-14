@@ -1,0 +1,27 @@
+/**{
+    color:brown;
+    border: 2px solid black;
+} */
+
+  p{
+     
+    display:inline-block;
+}
+.flex-container {
+  display: flex;
+  background: red;
+  width: auto;
+ }
+ 
+
+ .flex-container div {
+   background: rgb(119, 160, 199);
+   border: 1px solid rgb(0, 0, 0);
+   height: 300px;
+   /*width:5000px; has no effect*/
+   flex: 1;
+ }
+ .flex-container .two{
+   background:#FBEAEB;
+   flex: 2;
+ }
